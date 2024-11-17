@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 95%;
+    margin: 0 auto;
+    background-color:#800016;
+}
+
+/* Asegurar que las imágenes tengan el mismo tamaño */
+.card-img-top {
+    height: 300px; /* Ajustar altura según necesidad */
+    object-fit: cover; /* Recortar la imagen para que encaje */
+  }
+  
+  /* Centrar el contenido dentro de las tarjetas */
+  .card-body {
+    text-align: center;
+  }
+  
+  /* Espaciado entre tarjetas */
+  .card {
+    margin: 10px; /* Espaciado adicional */
+  }
+  
+  /* Ajustes responsivos */
+  @media (max-width: 768px) {
+    .card-img-top {
+      height: 150px; /* Reducir tamaño en pantallas más pequeñas */
+    }
+  }
+  h5{
+    color: #A0001C ;
+  }
+
+  p{
+    color: #C00021
+  }
+
+  div{
+    color: #FF002B;
+  }
+
+  select#unidad {
+    appearance: auto; /* Asegura el estilo predeterminado del navegador */
+    outline: none; /* Elimina contornos innecesarios */
+    padding: 8px; /* Ajusta el espaciado interno */
+    border: 1px solid #ccc; /* Borde limpio */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco */
+  }
+  
+  
+
+ 
